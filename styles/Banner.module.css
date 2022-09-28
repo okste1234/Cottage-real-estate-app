@@ -1,0 +1,34 @@
+
+
+.bgBanner{
+    display: block;
+  }
+  .bgBannerLeft{
+    width:60%;
+    border-radius: '40px';
+    padding: '40px',
+  }
+  .bgBannerImage{
+    display: none !important;
+  }
+  .banner{
+    padding-top: 220px;
+  }
+  @media only screen and (max-width: 600px){
+   
+    .bgBanner{
+      display: none;
+    }
+    .bgBannerLeft{
+    width:100%;
+    border-radius: '10px';
+    padding: '10px',
+    }
+    .bgBannerImage{
+        display: block !important;
+         border-radius: 10px;
+      }
+      .banner{
+        padding-top: 140px;
+      }
+  }

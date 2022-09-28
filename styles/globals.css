@@ -14,13 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+.home-image{
+  display: block;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
   body {
-    color: white;
-    background: black;
+    /* color: white; */
+    /* background: black; */
+  }
+  .home-image{
+    display: none;
   }
 }
