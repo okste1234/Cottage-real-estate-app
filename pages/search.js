@@ -1,8 +1,5 @@
-
-
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
-import Image from 'next/image'
 import { Flex, Box, Text, Icon } from '@chakra-ui/react'
 import { BsFilter } from 'react-icons/bs'
 import SearchFilters from '../components/SearchFilters'
@@ -24,9 +21,9 @@ const Search = ({ properties }) => {
                 borderBottom='1px'
                 borderColor='gray.200'
                 p='2'
-                fontWeight='bold'
+                fontWeight='black'
                 fontSize='lg'
-              
+            
                 justifyContent='center'
                 alignItems='center'
                 
@@ -56,8 +53,7 @@ const Search = ({ properties }) => {
                 </Flex>
                 {properties.length === 0 && (
                     <Flex flexDirection='column' marginTop='5' alignItems='center' marginBottom='5' flexWrap='wrap' justifyContent='center'>
-
-
+                        
                         <svg xmlns="http://www.w3.org/2000/svg" width="126.795" height="129.387" viewBox="0 0 126.795 129.387">
                             <g id="Group_146" data-name="Group 146" transform="translate(-64.456)">
                                 <circle id="Ellipse_161" data-name="Ellipse 161" cx="47.358" cy="47.358" r="47.358" transform="translate(96.534)" fill="#3f3d56" />

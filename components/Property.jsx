@@ -6,7 +6,7 @@ import { BsGridFill } from 'react-icons/bs'
 import { GoVerified } from 'react-icons/go'
 import millify from 'millify'
 
-import defaultImage from '../assets/housebg.jpg'
+import defaultImage from '../assets/house.jpg'
 
 
 

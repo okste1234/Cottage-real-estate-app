@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Real Estate</title>
+        <title>Cottage Real-Estate</title>
       </Head>
       <Box maxWidth='100%' m='auto'>
         <header>
